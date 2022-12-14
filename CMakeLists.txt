@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include(ExternalProject)
 ExternalProject_Add(github_evdi
  GIT_REPOSITORY https://github.com/DisplayLink/evdi.git
- GIT_TAG devel
+ GIT_TAG 14f4ce412ad1f73bde75f4d6b3a46e3a8e79d107
  BUILD_IN_SOURCE 1
  CONFIGURE_COMMAND ""
  BUILD_COMMAND cd library && make
